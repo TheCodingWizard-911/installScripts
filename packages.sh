@@ -37,5 +37,6 @@ sudo pacman -Rcns noto-fonts
 # install fonts
 
 sudo pacman -S ttf-meslo-nerd-font-powerlevel10k
+sudo pacman -S ttf-fira-code
 sudo pacman -S ttf-montserrat
 sudo pamac install ttf-bookerly
