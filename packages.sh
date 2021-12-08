@@ -1,42 +1,20 @@
 # update the system
 
-sudo pacman -Syyu
+sudo pacman -Syyu --noconfirm
 
 # remove unrequired/unwanted packages
-
-sudo pacman -Rcns $(pacman -Qdtq)
-sudo pacman -Rcns firefox 
-sudo pacman -Rcns totem
+sudo pacman -Rcns $(pacman -Qdtq) firefox  totem --noconfirm
 
 # install required packages
-
-sudo pacman -S firefox-developer-edition
-sudo pacman -S brave-browser
-sudo pacman -S alacritty
-sudo pacman -S neofetch
-sudo pacman -S stow
-sudo pacman -S vlc
+sudo pacman -S firefox-developer-edition brave-browser alacritty neofetch stow vlc --noconfirm
 
 # installing packages from AUR
 
-sudo pamac install visual-studio-code-bin
-sudo pamac install whitesur-gtk-theme-git
-sudo pamac install whitesur-icon-theme-git
+sudo pamac install visual-studio-code-bin whitesur-gtk-theme-git whitesur-icon-theme-git --noconfirm
 
 # remove unwanted fonts
-
-sudo pacman -Rcns adobe-source-han-sans-jp-fonts
-sudo pacman -Rcns adobe-source-han-sans-kr-fonts
-sudo pacman -Rcns adobe-source-han-sans-cn-fonts
-sudo pacman -Rcns ttf-droid
-sudo pacman -Rcns ttf-dejavu
-sudo pacman -Rcns ttf-inconsolata
-sudo pacman -Rcns ttf-indic-otf
-sudo pacman -Rcns noto-fonts
+sudo pacman -Rcns adobe-source-han-sans-jp-fonts adobe-source-han-sans-kr-fonts adobe-source-han-sans-cn-fonts ttf-droid ttf-dejavu ttf-inconsolata ttf-indic-otf noto-fonts --noconfirm
 
 # install fonts
-
-sudo pacman -S ttf-meslo-nerd-font-powerlevel10k
-sudo pacman -S ttf-fira-code
-sudo pacman -S ttf-montserrat
+sudo pacman -S ttf-meslo-nerd-font-powerlevel10k ttf-fira-code ttf-montserrat --noconfirm
 sudo pamac install ttf-bookerly
