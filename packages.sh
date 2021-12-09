@@ -6,11 +6,11 @@ sudo pacman -Syyu --noconfirm
 sudo pacman -Rcns $(pacman -Qdtq) firefox  totem --noconfirm
 
 # install required packages
-sudo pacman -S firefox-developer-edition brave-browser alacritty neofetch stow vlc --noconfirm
+sudo pacman -S firefox-developer-edition brave-browser alacritty neofetch stow vlc bspwm sxhkd polybar rofi cmatrix htop nitrogen otf-font-awesome ttf-material-design-icons-web-font --noconfirm
 
 # installing packages from AUR
 
-sudo pamac build visual-studio-code-bin whitesur-gtk-theme-git whitesur-icon-theme-git --no-confirm
+sudo pamac build visual-studio-code-bin whitesur-gtk-theme-git whitesur-icon-theme-git picom-jonaburg-git neovim-nightly-bin --no-confirm
 
 # remove unwanted fonts
 sudo pacman -Rcns adobe-source-han-sans-jp-fonts adobe-source-han-sans-kr-fonts adobe-source-han-sans-cn-fonts ttf-droid ttf-dejavu ttf-inconsolata ttf-indic-otf noto-fonts --noconfirm
