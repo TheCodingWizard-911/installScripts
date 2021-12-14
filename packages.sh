@@ -10,7 +10,7 @@ sudo pacman -S firefox-developer-edition brave-browser alacritty neofetch stow v
 
 # installing packages from AUR
 
-sudo pamac build visual-studio-code-bin whitesur-gtk-theme-git whitesur-icon-theme-git picom-jonaburg-git neovim-nightly-bin --no-confirm
+sudo pamac build visual-studio-code-bin whitesur-gtk-theme-git whitesur-icon-theme-git picom-jonaburg-git --no-confirm
 
 # remove unwanted fonts
 sudo pacman -Rcns adobe-source-han-sans-jp-fonts adobe-source-han-sans-kr-fonts adobe-source-han-sans-cn-fonts ttf-droid ttf-dejavu ttf-inconsolata ttf-indic-otf noto-fonts --noconfirm
