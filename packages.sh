@@ -6,7 +6,7 @@ sudo pacman -Syyu --noconfirm
 sudo pacman -Rcns $(pacman -Qdtq) firefox  totem --noconfirm
 
 # install required packages
-sudo pacman -S firefox-developer-edition brave-browser alacritty neofetch stow vlc bspwm sxhkd polybar rofi cmatrix htop nitrogen otf-font-awesome ttf-material-design-icons-web-font --noconfirm
+sudo pacman -S firefox-developer-edition brave-browser alacritty neofetch stow vlc bspwm sxhkd polybar rofi cmatrix htop nitrogen flameshot --noconfirm
 
 # installing packages from AUR
 
@@ -16,5 +16,5 @@ sudo pamac build visual-studio-code-bin whitesur-gtk-theme-git whitesur-icon-the
 sudo pacman -Rcns adobe-source-han-sans-jp-fonts adobe-source-han-sans-kr-fonts adobe-source-han-sans-cn-fonts ttf-droid ttf-dejavu ttf-inconsolata ttf-indic-otf noto-fonts --noconfirm
 
 # install fonts
-sudo pacman -S ttf-meslo-nerd-font-powerlevel10k ttf-fira-code ttf-montserrat --noconfirm
+sudo pacman -S ttf-meslo-nerd-font-powerlevel10k ttf-fira-code ttf-montserrat otf-font-awesome ttf-material-design-icons-web-font --noconfirm
 sudo pamac build ttf-bookerly -no-confirm
